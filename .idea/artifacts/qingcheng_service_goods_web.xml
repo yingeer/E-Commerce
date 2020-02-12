@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="qingcheng-service-goods-web">
+    <output-path>$PROJECT_DIR$/out/artifacts/qingcheng_service_goods_web</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="QingChengECommerce" />
+          <element id="module-output" name="qingcheng_service_goods" />
+          <element id="module-output" name="qingcheng_web_manager" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="qingcheng_service_goods/web/Web" />
+      <element id="javaee-facet-resources" facet="qingcheng_web_manager/web/Web" />
+    </root>
+  </artifact>
+</component>
