@@ -4,9 +4,11 @@ import com.qingcheng.dao.BrandMapper;
 import com.qingcheng.pojo.goods.Brand;
 import com.qingcheng.service.goods.BrandService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class BrandServiceImpl implements BrandService {
 
     @Autowired
