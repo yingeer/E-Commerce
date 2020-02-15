@@ -5,6 +5,7 @@ import com.qingcheng.pojo.goods.Brand;
 import com.qingcheng.service.goods.BrandService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import tk.mybatis.mapper.entity.Example;
 
 import java.util.List;
 
@@ -16,6 +17,6 @@ public class BrandServiceImpl implements BrandService {
 
     @Override
     public List<Brand> findAll() {
-        return null;
+        return brandMapper.selectAll();
     }
 }

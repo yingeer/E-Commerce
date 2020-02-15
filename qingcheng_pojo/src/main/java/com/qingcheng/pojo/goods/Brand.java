@@ -1,13 +1,12 @@
 package com.qingcheng.pojo.goods;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.io.Serializable;
 
 @Entity
 @Table(name = "tb_brand", schema="qingcheng_goods")
 public class Brand implements Serializable {
+
     @Id
     private Integer id;
 
